@@ -1,11 +1,16 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 export default function Cart() {
   return (
-    <>
-      <h1>Cart</h1>
-    </>
+    <Container>
+       <ProductTable>
+       </ProductTable>
+
+       <footer>
+         <button type="button"> Finalizar pedido </button>
+       </footer>
+    </Container>
   );
 }
